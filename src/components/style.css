@@ -1,0 +1,60 @@
+.card {
+  background-color: black;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  color: white;
+}
+.container {
+  margin: 20px;
+  padding: 5px;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+.todo {
+  float: left;
+  color: white;
+  background-color: blue;
+  margin: 5px;
+  border-radius: 3px;
+  padding: 0px 5px 5px;
+  width: 200px;
+}
+.doing {
+  float: left;
+  color: white;
+  background-color: orangered;
+  margin: 5px;
+  border-radius: 3px;
+  padding: 0px 5px 5px;
+  width: 200px;
+}
+.done {
+  float: left;
+  color: white;
+  background-color: purple;
+  margin: 5px;
+  border-radius: 3px;
+  padding: 0px 5px 5px;
+  width: 200px;
+}
+.delete {
+  padding: 0px;
+  margin: 1px;
+  height: 16px;
+  width: 45px;
+  color: rgb(230, 214, 214);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: small;
+}
+.delete:hover {
+  color: red;
+  background-color: rgb(230, 214, 214);
+}
